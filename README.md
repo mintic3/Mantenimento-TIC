@@ -14,7 +14,6 @@ Un aplicacion para solicitar mantenimiento preventivo y correctivo a estos vehí
 
 un adminstrador
 
-
 cliente
 HU-05 Como cliente, puedo registrarme en la aplicación
 HU-06 Como cliente puedo ingresar a la aplicación
