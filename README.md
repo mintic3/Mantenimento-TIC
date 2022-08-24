@@ -7,8 +7,11 @@ Un aplicacion para solicitar mantenimiento preventivo y correctivo a estos vehí
 
 
 1)revision del mantenimento general ()
+
 2)instalacion de respuestos()
+
 3)actualizacion de software del vehiculo 
+
 4)actualizacion de la base datos del equipo
 
 
