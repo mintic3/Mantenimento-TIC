@@ -31,3 +31,11 @@ HU-03 Como técnico deseo registrar los cambios de un repuesto.
 Opcional (Enviar correo al cliente notificando los cambios realizados)
 HU-04 Como técnico, deseo consultar la información general de
 todos los clientes a los que se les ha realizado el mantenimiento.
+
+Colaboradores
+
+1. Carlos Laverde
+2. Jhonatan Grueso Perea
+3. Cristian Yanes Espitia
+4. Laura Estefania Mahecha
+5. Carlos Rodeiguez Rodriguez
