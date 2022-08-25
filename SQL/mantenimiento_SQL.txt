@@ -1,0 +1,88 @@
+CREATE TABLE [tb_cliente] (
+  [id] INT PRIMARY KEY IDENTITY(1, 1),
+  [tipo_id] VARCHAR(20) NOT NULL,
+  [identificacion] INT,
+  [nombres] VARCHAR(20) NOT NULL,
+  [apellidos] VARCHAR(20) NOT NULL,
+  [fechaNacimiento] date,
+  [genero]  VARCHAR(20) NOT NULL,
+  [fechaRegistro] date,
+  [telefono] VARCHAR(20) UNIQUE NOT NULL,
+  [ciudad] VARCHAR(20) UNIQUE NOT NULL,
+  [direccion] VARCHAR(20) UNIQUE NOT NULL,
+  [correo] VARCHAR(20) UNIQUE NOT NULL,
+  [login] INT
+)
+GO
+
+CREATE TABLE [tb_login] (
+  [id] INT PRIMARY KEY IDENTITY(1, 1),
+  [usuario] VARCHAR,
+  [contrasena] VARCHAR
+)
+GO
+
+CREATE TABLE [tb_tecnico] (
+  [id] INT PRIMARY KEY IDENTITY(1, 1),
+  [tipo_id] VARCHAR(20) NOT NULL,
+  [identificacion] INT,
+  [nombres] VARCHAR(20) NOT NULL,
+  [apellidos] VARCHAR(20) NOT NULL,
+  [fecha_nacimiento] date,
+  [genero]  VARCHAR(20) NOT NULL,
+  [fecha_registro] date,
+  [especialidad] VARCHAR(20),
+  [estado] VARCHAR(20),
+  [tiempo_solucion] INT,
+  [administrador] bit,
+  [login] INT
+)
+GO
+
+CREATE TABLE [tb_revision] (
+  [id] INT PRIMARY KEY IDENTITY(1, 1),
+  [nombre_revision] VARCHAR(20) NOT NULL,
+  [tipo_revision] VARCHAR(20) NOT NULL,
+  [fecha_revision] date,
+  [costo] decimal,
+  [detalle_revision] VARCHAR(100),
+  [vehiculo] INT,
+  [tecnico] INT
+)
+GO
+
+CREATE TABLE [tb_vehiculo] (
+  [id] INT PRIMARY KEY IDENTITY(1, 1),
+  [fabricante] VARCHAR(20),
+  [matricula] VARCHAR(20),
+  [color] VARCHAR(100),
+  [modelo] date,
+  [tipo_vehiculo] INT,
+  [cliente] INT
+)
+GO
+
+CREATE TABLE [tb_tipo_vehiculo] (
+  [id] INT PRIMARY KEY IDENTITY(1, 1),
+  [nombre] VARCHAR,
+  [descripcion] VARCHAR
+)
+GO
+
+ALTER TABLE [tb_cliente] ADD FOREIGN KEY ([login]) REFERENCES [tb_login] ([id])
+GO
+
+ALTER TABLE [tb_tecnico] ADD FOREIGN KEY ([login]) REFERENCES  [tb_login]([id])
+GO
+
+ALTER TABLE [tb_revision] ADD FOREIGN KEY ([tecnico]) REFERENCES [tb_tecnico] ([id])
+GO
+
+ALTER TABLE [tb_revision] ADD FOREIGN KEY ([vehiculo]) REFERENCES [tb_vehiculo] ([id])
+GO
+
+ALTER TABLE  [tb_vehiculo] ADD FOREIGN KEY ([tipo_vehiculo]) REFERENCES [tb_tipo_vehiculo] ([id])
+GO
+
+ALTER TABLE [tb_vehiculo] ADD FOREIGN KEY ([cliente]) REFERENCES [tb_cliente] ([id])
+GO
