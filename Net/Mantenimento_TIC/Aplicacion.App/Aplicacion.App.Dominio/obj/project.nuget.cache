@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "D8jNZPu6eW8z2cupqwn7nPyW76AkRGIcQxgDp5p4wPk5mz1kQ19QL6A5cOxMeq8EzPAM9MKySlDK6zWC2J+YIg==",
+  "success": true,
+  "projectFilePath": "C:\\Mantenimento_TIC\\Aplicacion.App\\Aplicacion.App.Dominio\\Aplicacion.App.Dominio.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\cye13\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\cye13\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
