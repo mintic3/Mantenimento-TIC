@@ -1,17 +1,17 @@
+CREATE DATABASE mantenimiento_db
+GO
+
+USE mantenimiento_db
+GO
+
 CREATE TABLE [tb_cliente] (
   [id] INT PRIMARY KEY IDENTITY(1, 1),
-  [tipo_id] VARCHAR(20) NOT NULL,
-  [identificacion] INT,
-  [nombres] VARCHAR(20) NOT NULL,
-  [apellidos] VARCHAR(20) NOT NULL,
-  [fechaNacimiento] date,
-  [genero]  VARCHAR(20) NOT NULL,
-  [fechaRegistro] date,
   [telefono] VARCHAR(20) UNIQUE NOT NULL,
   [ciudad] VARCHAR(20) UNIQUE NOT NULL,
   [direccion] VARCHAR(20) UNIQUE NOT NULL,
   [correo] VARCHAR(20) UNIQUE NOT NULL,
-  [login] INT
+  [login] INT,
+  [persona] INT
 )
 GO
 
@@ -22,20 +22,26 @@ CREATE TABLE [tb_login] (
 )
 GO
 
-CREATE TABLE [tb_tecnico] (
+CREATE TABLE [tb_persona] (
   [id] INT PRIMARY KEY IDENTITY(1, 1),
   [tipo_id] VARCHAR(20) NOT NULL,
   [identificacion] INT,
   [nombres] VARCHAR(20) NOT NULL,
   [apellidos] VARCHAR(20) NOT NULL,
   [fecha_nacimiento] date,
-  [genero]  VARCHAR(20) NOT NULL,
-  [fecha_registro] date,
+  [genero] genero,
+  [fecha_registro] date
+)
+GO
+
+CREATE TABLE [tb_tecnico] (
+  [id] INT PRIMARY KEY IDENTITY(1, 1),
   [especialidad] VARCHAR(20),
   [estado] VARCHAR(20),
   [tiempo_solucion] INT,
-  [administrador] bit,
-  [login] INT
+  [administrador] boolean,
+  [login] INT,
+  [persona] INT
 )
 GO
 
@@ -85,4 +91,10 @@ ALTER TABLE  [tb_vehiculo] ADD FOREIGN KEY ([tipo_vehiculo]) REFERENCES [tb_tipo
 GO
 
 ALTER TABLE [tb_vehiculo] ADD FOREIGN KEY ([cliente]) REFERENCES [tb_cliente] ([id])
+GO
+
+ALTER TABLE [tb_cliente] ADD FOREIGN KEY ([persona]) REFERENCES [tb_persona] ([id])
+GO
+
+ALTER TABLE [tb_tecnico] ADD FOREIGN KEY ([persona]) REFERENCES [tb_persona] ([id])
 GO
