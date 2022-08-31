@@ -1,0 +1,13 @@
+C:\Repositorio\Mantenimento-TIC\Net\Mantenimento_TIC\Aplicacion.App\Aplicacion.App.Entorno\bin\Debug\netcoreapp3.1\Aplicacion.App.Entorno.exe
+C:\Repositorio\Mantenimento-TIC\Net\Mantenimento_TIC\Aplicacion.App\Aplicacion.App.Entorno\bin\Debug\netcoreapp3.1\Aplicacion.App.Entorno.deps.json
+C:\Repositorio\Mantenimento-TIC\Net\Mantenimento_TIC\Aplicacion.App\Aplicacion.App.Entorno\bin\Debug\netcoreapp3.1\Aplicacion.App.Entorno.runtimeconfig.json
+C:\Repositorio\Mantenimento-TIC\Net\Mantenimento_TIC\Aplicacion.App\Aplicacion.App.Entorno\bin\Debug\netcoreapp3.1\Aplicacion.App.Entorno.runtimeconfig.dev.json
+C:\Repositorio\Mantenimento-TIC\Net\Mantenimento_TIC\Aplicacion.App\Aplicacion.App.Entorno\bin\Debug\netcoreapp3.1\Aplicacion.App.Entorno.dll
+C:\Repositorio\Mantenimento-TIC\Net\Mantenimento_TIC\Aplicacion.App\Aplicacion.App.Entorno\bin\Debug\netcoreapp3.1\Aplicacion.App.Entorno.pdb
+C:\Repositorio\Mantenimento-TIC\Net\Mantenimento_TIC\Aplicacion.App\Aplicacion.App.Entorno\obj\Debug\netcoreapp3.1\Aplicacion.App.Entorno.csprojAssemblyReference.cache
+C:\Repositorio\Mantenimento-TIC\Net\Mantenimento_TIC\Aplicacion.App\Aplicacion.App.Entorno\obj\Debug\netcoreapp3.1\Aplicacion.App.Entorno.AssemblyInfoInputs.cache
+C:\Repositorio\Mantenimento-TIC\Net\Mantenimento_TIC\Aplicacion.App\Aplicacion.App.Entorno\obj\Debug\netcoreapp3.1\Aplicacion.App.Entorno.AssemblyInfo.cs
+C:\Repositorio\Mantenimento-TIC\Net\Mantenimento_TIC\Aplicacion.App\Aplicacion.App.Entorno\obj\Debug\netcoreapp3.1\Aplicacion.App.Entorno.csproj.CoreCompileInputs.cache
+C:\Repositorio\Mantenimento-TIC\Net\Mantenimento_TIC\Aplicacion.App\Aplicacion.App.Entorno\obj\Debug\netcoreapp3.1\Aplicacion.App.Entorno.dll
+C:\Repositorio\Mantenimento-TIC\Net\Mantenimento_TIC\Aplicacion.App\Aplicacion.App.Entorno\obj\Debug\netcoreapp3.1\Aplicacion.App.Entorno.pdb
+C:\Repositorio\Mantenimento-TIC\Net\Mantenimento_TIC\Aplicacion.App\Aplicacion.App.Entorno\obj\Debug\netcoreapp3.1\Aplicacion.App.Entorno.genruntimeconfig.cache

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "fnKw2GAl422HoMNvhOfixp6cU8+YJFigsjm1JXqIZhFdiIs+9OLdufi+KH8akJ4kLqvSZ8REMikpy3IEPRDXYA==",
+  "dgSpecHash": "5sNurx0gQ0HqcFtRheNXAPaGG+6so1yo3WuhdedGawElfMX9z3bFBgJwsx07x0J41gBy9Gm+zD6qcOnsc3+h/Q==",
   "success": true,
-  "projectFilePath": "C:\\Mantenimento_TIC\\Aplicacion.App\\Aplicacion.App.Persistencia\\Aplicacion.App.Persistencia.csproj",
+  "projectFilePath": "C:\\Repositorio\\Mantenimento-TIC\\Net\\Mantenimento_TIC\\Aplicacion.App\\Aplicacion.App.Persistencia\\Aplicacion.App.Persistencia.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\cye13\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Users\\cye13\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"

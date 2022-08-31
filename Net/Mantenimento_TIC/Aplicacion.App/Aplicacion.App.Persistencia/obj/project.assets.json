@@ -185,11 +185,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Mantenimento_TIC\\Aplicacion.App\\Aplicacion.App.Persistencia\\Aplicacion.App.Persistencia.csproj",
+      "projectUniqueName": "C:\\Repositorio\\Mantenimento-TIC\\Net\\Mantenimento_TIC\\Aplicacion.App\\Aplicacion.App.Persistencia\\Aplicacion.App.Persistencia.csproj",
       "projectName": "Aplicacion.App.Persistencia",
-      "projectPath": "C:\\Mantenimento_TIC\\Aplicacion.App\\Aplicacion.App.Persistencia\\Aplicacion.App.Persistencia.csproj",
+      "projectPath": "C:\\Repositorio\\Mantenimento-TIC\\Net\\Mantenimento_TIC\\Aplicacion.App\\Aplicacion.App.Persistencia\\Aplicacion.App.Persistencia.csproj",
       "packagesPath": "C:\\Users\\cye13\\.nuget\\packages\\",
-      "outputPath": "C:\\Mantenimento_TIC\\Aplicacion.App\\Aplicacion.App.Persistencia\\obj\\",
+      "outputPath": "C:\\Repositorio\\Mantenimento-TIC\\Net\\Mantenimento_TIC\\Aplicacion.App\\Aplicacion.App.Persistencia\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\cye13\\AppData\\Roaming\\NuGet\\NuGet.Config"

@@ -185,11 +185,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Mantenimento_TIC\\Aplicacion.App\\Aplicacion.App.Dominio\\Aplicacion.App.Dominio.csproj",
+      "projectUniqueName": "C:\\Repositorio\\Mantenimento-TIC\\Net\\Mantenimento_TIC\\Aplicacion.App\\Aplicacion.App.Dominio\\Aplicacion.App.Dominio.csproj",
       "projectName": "Aplicacion.App.Dominio",
-      "projectPath": "C:\\Mantenimento_TIC\\Aplicacion.App\\Aplicacion.App.Dominio\\Aplicacion.App.Dominio.csproj",
+      "projectPath": "C:\\Repositorio\\Mantenimento-TIC\\Net\\Mantenimento_TIC\\Aplicacion.App\\Aplicacion.App.Dominio\\Aplicacion.App.Dominio.csproj",
       "packagesPath": "C:\\Users\\cye13\\.nuget\\packages\\",
-      "outputPath": "C:\\Mantenimento_TIC\\Aplicacion.App\\Aplicacion.App.Dominio\\obj\\",
+      "outputPath": "C:\\Repositorio\\Mantenimento-TIC\\Net\\Mantenimento_TIC\\Aplicacion.App\\Aplicacion.App.Dominio\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\cye13\\AppData\\Roaming\\NuGet\\NuGet.Config"
