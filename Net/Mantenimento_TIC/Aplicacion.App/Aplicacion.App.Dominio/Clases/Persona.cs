@@ -6,7 +6,7 @@ namespace Aplicacion.App.Dominio
         public string Tid {get;set;}
         public int Numero {get;set;}
         public string Apellidos {get;set;}
-        public date FechaNato {get;set;}
+        //public Date FechaNato {get;set;}
         public Genero Genero {get;set;}
         public string Usuario {get;set;}
         public string Contraseña {get;set;}
