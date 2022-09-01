@@ -8,6 +8,15 @@ namespace persistencia
     {
         private const string connectionString = @"Data Source=localhost\sqlexpress;Initial Catalog=MantenimientoTIC;Integrated Security=True;";
         public DbSet<Persona> Persona {get; set;}
+        public DbSet<Cliente> Cliente {get; set;}
+        public DbSet<Historial> Historial {get; set;}
+        public DbSet<LoginAcceso> LoginAcceso {get; set;}
+        public DbSet<Tecnico> Tecnico {get; set;}
+        public DbSet<Revision> Revision {get; set;}
+        public DbSet<Adminstracion> Adminstracion {get; set;}
+        public DbSet<Vehiculo> Vehiculo {get; set;}
+        public DbSet<Auto> Auto {get; set;}
+        public DbSet<Camioneta> Camioneta {get; set;}
 
         public ApplicationContext(){}
 
