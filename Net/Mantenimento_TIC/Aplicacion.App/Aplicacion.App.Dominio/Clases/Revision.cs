@@ -1,19 +1,23 @@
 using System;
 namespace Aplicacion.App.Dominio
 {
-    public class Revision{
-        public int Id {get;set;}
-        public int Codigo {get;set;}
-        public int CodigoEmpleado {get;set;}
-        public string NombreRevision {get;set;}
-        public string TipoRevision {get;set;}
-        public string FechaRevision {get;set;}
-        public double Costo {get;set;}
+    public class Revision {
 
-        void Guardar (){
+        public int id {get;set;}
+        public int codigo {get;set;}
+        public int codigo_empleado {get;set;}
+        public string nombre_revision {get;set;}
+        public string tipo_revision {get;set;}
+        public string fecha_revision {get;set;}
+        public double costo {get;set;}
+        public string detalle_revision {get;set;}
+        public int vehiculo {get;set;}
+        public int tecnico {get;set;}
+
+        void guardar(){
          //programacion
         }
-        void Actualizar (){
+        void actualizar(){
          //programacion
         }
         void eliminar(){

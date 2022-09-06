@@ -1,17 +1,13 @@
 using System;
 namespace Aplicacion.App.Dominio
 {
-    public class Vehiculo{
-     public int Id {get;set;}
-     public string Fabricante {get;set;}
-     public string TipoCombustible {get;set;}
-     public string Modelo {get;set;}
-     public int Cilindraje {get;set;}
-     public int Kilometraje {get;set;}
-     public string TipoMotor {get;set;}
-     public bool Polarizados {get;set;}
-     public Historial Historial {get;set;}
-     public Tecnico Tecnico {get;set;}
+  public class Vehiculo{
+    public int Id {get;set;}
+    public string fabricante {get;set;}
+    public string matricula {get;set;}
+    public string color {get;set;}
+    public string modelo {get;set;}
+    public int tipoVehiculo {get;set;}
+    public int cliente {get;set;}
   }
-
 }

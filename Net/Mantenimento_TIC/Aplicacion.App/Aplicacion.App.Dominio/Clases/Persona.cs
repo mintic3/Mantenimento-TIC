@@ -1,19 +1,19 @@
 using System;
 namespace Aplicacion.App.Dominio
 {
-    public class Persona{
-        public int Id {get;set;}
-        public string Tid {get;set;}
-        public int Numero {get;set;}
-        public string Apellidos {get;set;}
-        public string FechaNato {get;set;}
-        public Genero Genero {get;set;}
-        public string Usuario {get;set;}
-        public string Contraseña {get;set;}
+    public class Persona {
+        public int id {get;set;}
+        public string tipo_id {get;set;}
+        public int identificacion{get;set;}
+        public string nombres {get;set;}
+        public string apellidos {get;set;}
+        public DateTime fecha_nacimiento {get;set;}
+        public string genero {get;set;}
+        public DateTime fecha_registro {get;set;}
 
-        void Edad (){
-         //programacion
+        void edad() {
+            //programacion
         }
- }
+    }
 
 }

@@ -10,3 +10,9 @@ C:\Repositorio\Mantenimento-TIC\Net\Mantenimento_TIC\Aplicacion.App\Aplicacion.A
 C:\Repositorio\Mantenimento-TIC\Net\Mantenimento_TIC\Aplicacion.App\Aplicacion.App.Persistencia\obj\Debug\netstandard2.1\Aplicacion.App.Persistencia.csproj.CopyComplete
 C:\Repositorio\Mantenimento-TIC\Net\Mantenimento_TIC\Aplicacion.App\Aplicacion.App.Persistencia\obj\Debug\netstandard2.1\Aplicacion.App.Persistencia.dll
 C:\Repositorio\Mantenimento-TIC\Net\Mantenimento_TIC\Aplicacion.App\Aplicacion.App.Persistencia\obj\Debug\netstandard2.1\Aplicacion.App.Persistencia.pdb
+C:\Users\USUARIO\Mantenimento-TIC\Mantenimento-TIC\Net\Mantenimento_TIC\Aplicacion.App\Aplicacion.App.Persistencia\obj\Debug\netstandard2.1\Aplicacion.App.Persistencia.csprojAssemblyReference.cache
+C:\Users\USUARIO\Mantenimento-TIC\Mantenimento-TIC\Net\Mantenimento_TIC\Aplicacion.App\Aplicacion.App.Persistencia\obj\Debug\netstandard2.1\Aplicacion.App.Persistencia.AssemblyInfoInputs.cache
+C:\Users\USUARIO\Mantenimento-TIC\Mantenimento-TIC\Net\Mantenimento_TIC\Aplicacion.App\Aplicacion.App.Persistencia\obj\Debug\netstandard2.1\Aplicacion.App.Persistencia.AssemblyInfo.cs
+C:\Users\USUARIO\Mantenimento-TIC\Mantenimento-TIC\Net\Mantenimento_TIC\Aplicacion.App\Aplicacion.App.Persistencia\obj\Debug\netstandard2.1\Aplicacion.App.Persistencia.csproj.CoreCompileInputs.cache
+C:\Users\USUARIO\Mantenimento-TIC\Mantenimento-TIC\Net\Mantenimento_TIC\Aplicacion.App\Aplicacion.App.Persistencia\obj\Debug\netstandard2.1\Aplicacion.App.Persistencia.dll
+C:\Users\USUARIO\Mantenimento-TIC\Mantenimento-TIC\Net\Mantenimento_TIC\Aplicacion.App\Aplicacion.App.Persistencia\obj\Debug\netstandard2.1\Aplicacion.App.Persistencia.pdb

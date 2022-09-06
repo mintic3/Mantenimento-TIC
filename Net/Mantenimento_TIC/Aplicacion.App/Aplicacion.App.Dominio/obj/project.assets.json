@@ -180,19 +180,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\cye13\\.nuget\\packages\\": {}
+    "C:\\Users\\USUARIO\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Repositorio\\Mantenimento-TIC\\Net\\Mantenimento_TIC\\Aplicacion.App\\Aplicacion.App.Dominio\\Aplicacion.App.Dominio.csproj",
+      "projectUniqueName": "C:\\Users\\USUARIO\\Mantenimento-TIC\\Mantenimento-TIC\\Net\\Mantenimento_TIC\\Aplicacion.App\\Aplicacion.App.Dominio\\Aplicacion.App.Dominio.csproj",
       "projectName": "Aplicacion.App.Dominio",
-      "projectPath": "C:\\Repositorio\\Mantenimento-TIC\\Net\\Mantenimento_TIC\\Aplicacion.App\\Aplicacion.App.Dominio\\Aplicacion.App.Dominio.csproj",
-      "packagesPath": "C:\\Users\\cye13\\.nuget\\packages\\",
-      "outputPath": "C:\\Repositorio\\Mantenimento-TIC\\Net\\Mantenimento_TIC\\Aplicacion.App\\Aplicacion.App.Dominio\\obj\\",
+      "projectPath": "C:\\Users\\USUARIO\\Mantenimento-TIC\\Mantenimento-TIC\\Net\\Mantenimento_TIC\\Aplicacion.App\\Aplicacion.App.Dominio\\Aplicacion.App.Dominio.csproj",
+      "packagesPath": "C:\\Users\\USUARIO\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\USUARIO\\Mantenimento-TIC\\Mantenimento-TIC\\Net\\Mantenimento_TIC\\Aplicacion.App\\Aplicacion.App.Dominio\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\cye13\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\USUARIO\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netstandard2.0"

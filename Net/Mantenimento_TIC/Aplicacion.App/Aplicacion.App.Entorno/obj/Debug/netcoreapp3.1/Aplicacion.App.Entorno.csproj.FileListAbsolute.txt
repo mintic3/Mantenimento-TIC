@@ -11,3 +11,16 @@ C:\Repositorio\Mantenimento-TIC\Net\Mantenimento_TIC\Aplicacion.App\Aplicacion.A
 C:\Repositorio\Mantenimento-TIC\Net\Mantenimento_TIC\Aplicacion.App\Aplicacion.App.Entorno\obj\Debug\netcoreapp3.1\Aplicacion.App.Entorno.dll
 C:\Repositorio\Mantenimento-TIC\Net\Mantenimento_TIC\Aplicacion.App\Aplicacion.App.Entorno\obj\Debug\netcoreapp3.1\Aplicacion.App.Entorno.pdb
 C:\Repositorio\Mantenimento-TIC\Net\Mantenimento_TIC\Aplicacion.App\Aplicacion.App.Entorno\obj\Debug\netcoreapp3.1\Aplicacion.App.Entorno.genruntimeconfig.cache
+C:\Users\USUARIO\Mantenimento-TIC\Mantenimento-TIC\Net\Mantenimento_TIC\Aplicacion.App\Aplicacion.App.Entorno\bin\Debug\netcoreapp3.1\Aplicacion.App.Entorno.exe
+C:\Users\USUARIO\Mantenimento-TIC\Mantenimento-TIC\Net\Mantenimento_TIC\Aplicacion.App\Aplicacion.App.Entorno\bin\Debug\netcoreapp3.1\Aplicacion.App.Entorno.deps.json
+C:\Users\USUARIO\Mantenimento-TIC\Mantenimento-TIC\Net\Mantenimento_TIC\Aplicacion.App\Aplicacion.App.Entorno\bin\Debug\netcoreapp3.1\Aplicacion.App.Entorno.runtimeconfig.json
+C:\Users\USUARIO\Mantenimento-TIC\Mantenimento-TIC\Net\Mantenimento_TIC\Aplicacion.App\Aplicacion.App.Entorno\bin\Debug\netcoreapp3.1\Aplicacion.App.Entorno.runtimeconfig.dev.json
+C:\Users\USUARIO\Mantenimento-TIC\Mantenimento-TIC\Net\Mantenimento_TIC\Aplicacion.App\Aplicacion.App.Entorno\bin\Debug\netcoreapp3.1\Aplicacion.App.Entorno.dll
+C:\Users\USUARIO\Mantenimento-TIC\Mantenimento-TIC\Net\Mantenimento_TIC\Aplicacion.App\Aplicacion.App.Entorno\bin\Debug\netcoreapp3.1\Aplicacion.App.Entorno.pdb
+C:\Users\USUARIO\Mantenimento-TIC\Mantenimento-TIC\Net\Mantenimento_TIC\Aplicacion.App\Aplicacion.App.Entorno\obj\Debug\netcoreapp3.1\Aplicacion.App.Entorno.csprojAssemblyReference.cache
+C:\Users\USUARIO\Mantenimento-TIC\Mantenimento-TIC\Net\Mantenimento_TIC\Aplicacion.App\Aplicacion.App.Entorno\obj\Debug\netcoreapp3.1\Aplicacion.App.Entorno.AssemblyInfoInputs.cache
+C:\Users\USUARIO\Mantenimento-TIC\Mantenimento-TIC\Net\Mantenimento_TIC\Aplicacion.App\Aplicacion.App.Entorno\obj\Debug\netcoreapp3.1\Aplicacion.App.Entorno.AssemblyInfo.cs
+C:\Users\USUARIO\Mantenimento-TIC\Mantenimento-TIC\Net\Mantenimento_TIC\Aplicacion.App\Aplicacion.App.Entorno\obj\Debug\netcoreapp3.1\Aplicacion.App.Entorno.csproj.CoreCompileInputs.cache
+C:\Users\USUARIO\Mantenimento-TIC\Mantenimento-TIC\Net\Mantenimento_TIC\Aplicacion.App\Aplicacion.App.Entorno\obj\Debug\netcoreapp3.1\Aplicacion.App.Entorno.dll
+C:\Users\USUARIO\Mantenimento-TIC\Mantenimento-TIC\Net\Mantenimento_TIC\Aplicacion.App\Aplicacion.App.Entorno\obj\Debug\netcoreapp3.1\Aplicacion.App.Entorno.pdb
+C:\Users\USUARIO\Mantenimento-TIC\Mantenimento-TIC\Net\Mantenimento_TIC\Aplicacion.App\Aplicacion.App.Entorno\obj\Debug\netcoreapp3.1\Aplicacion.App.Entorno.genruntimeconfig.cache

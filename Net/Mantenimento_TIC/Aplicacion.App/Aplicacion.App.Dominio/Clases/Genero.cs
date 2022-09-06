@@ -1,10 +1,7 @@
 namespace Aplicacion.App.Dominio
 {
-    public enum Genero{
-
+    public enum Genero {
         masculino,
         femenino,
-        
- }
-
+    }
 }

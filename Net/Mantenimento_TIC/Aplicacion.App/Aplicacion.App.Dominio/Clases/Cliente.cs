@@ -1,24 +1,24 @@
 using System;
 namespace Aplicacion.App.Dominio
 {
-    public class Cliente:Persona{
-        public string Telefono {get;set;}
-        public string Ciudad {get;set;}
-        public string Direcion {get;set;}
-        public string Correo {get;set;}
-        public Historial Historial{get;set;}
-        public LoginAcceso LoginAcceso{get;set;}
-        public Vehiculo Vehiculo {get;set;}
+  public class Cliente {
+    public int id {get;set;}
+    public string telefono {get;set;}
+    public string ciudad {get;set;}
+    public string direcion {get;set;}
+    public string correo {get;set;}
+    public int login {get;set;}
+    public int persona {get;set;}
 
-        void Consultar (){
-         //programacion
-        }
-        void Login (){
-         //programacion
-        }
-        void ActualizarPerfil (){
-         //programacion
-        }
+    void consultar(){
+      //programacion
+    }
+    void acceder(){
+      //programacion
+    }
+    void actualizarPerfil() {
+      //programacion
+    }
 
   }
 

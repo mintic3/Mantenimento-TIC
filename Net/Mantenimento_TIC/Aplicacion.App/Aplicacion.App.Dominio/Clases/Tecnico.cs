@@ -1,24 +1,24 @@
 using System;
 namespace Aplicacion.App.Dominio
 {
-    public class Tecnico:Persona{
-        public int TiempoSolucion {get;set;}
-        public string Especialidad {get;set;}
-        public string CodigoEmpleado {get;set;}
-        public string Estado {get;set;}
-        public Historial Historial{get;set;}
-        public LoginAcceso LoginAcceso {get;set;}
-        public Revision Revision {get;set;}
+    public class Tecnico {
+        public int id {get;set;}
+        public string especialidad {get;set;}
+        public string estado {get;set;}
+        public int tiempo_solucion {get;set;}
+        public bool administrador {get; set;}
+        public int login {get;set;}
+        public int persona {get;set;}
         
-        void Registrar (){
+        void registrar(){
          //programacion
         }
-        void Consultar (){
+        void consultar(){
          //programacion
         }
-        void login(){
+        void acceder(){
          //programacion
         }
- }
+    }
 
 }

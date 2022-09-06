@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Repositorio\\Mantenimento-TIC\\Net\\Mantenimento_TIC\\Aplicacion.App\\Aplicacion.App.Persistencia\\Aplicacion.App.Persistencia.csproj": {}
+    "C:\\Users\\USUARIO\\Mantenimento-TIC\\Mantenimento-TIC\\Net\\Mantenimento_TIC\\Aplicacion.App\\Aplicacion.App.Persistencia\\Aplicacion.App.Persistencia.csproj": {}
   },
   "projects": {
-    "C:\\Repositorio\\Mantenimento-TIC\\Net\\Mantenimento_TIC\\Aplicacion.App\\Aplicacion.App.Dominio\\Aplicacion.App.Dominio.csproj": {
+    "C:\\Users\\USUARIO\\Mantenimento-TIC\\Mantenimento-TIC\\Net\\Mantenimento_TIC\\Aplicacion.App\\Aplicacion.App.Dominio\\Aplicacion.App.Dominio.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Repositorio\\Mantenimento-TIC\\Net\\Mantenimento_TIC\\Aplicacion.App\\Aplicacion.App.Dominio\\Aplicacion.App.Dominio.csproj",
+        "projectUniqueName": "C:\\Users\\USUARIO\\Mantenimento-TIC\\Mantenimento-TIC\\Net\\Mantenimento_TIC\\Aplicacion.App\\Aplicacion.App.Dominio\\Aplicacion.App.Dominio.csproj",
         "projectName": "Aplicacion.App.Dominio",
-        "projectPath": "C:\\Repositorio\\Mantenimento-TIC\\Net\\Mantenimento_TIC\\Aplicacion.App\\Aplicacion.App.Dominio\\Aplicacion.App.Dominio.csproj",
-        "packagesPath": "C:\\Users\\cye13\\.nuget\\packages\\",
-        "outputPath": "C:\\Repositorio\\Mantenimento-TIC\\Net\\Mantenimento_TIC\\Aplicacion.App\\Aplicacion.App.Dominio\\obj\\",
+        "projectPath": "C:\\Users\\USUARIO\\Mantenimento-TIC\\Mantenimento-TIC\\Net\\Mantenimento_TIC\\Aplicacion.App\\Aplicacion.App.Dominio\\Aplicacion.App.Dominio.csproj",
+        "packagesPath": "C:\\Users\\USUARIO\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\USUARIO\\Mantenimento-TIC\\Mantenimento-TIC\\Net\\Mantenimento_TIC\\Aplicacion.App\\Aplicacion.App.Dominio\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\cye13\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\USUARIO\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netstandard2.0"
@@ -57,17 +57,17 @@
         }
       }
     },
-    "C:\\Repositorio\\Mantenimento-TIC\\Net\\Mantenimento_TIC\\Aplicacion.App\\Aplicacion.App.Persistencia\\Aplicacion.App.Persistencia.csproj": {
+    "C:\\Users\\USUARIO\\Mantenimento-TIC\\Mantenimento-TIC\\Net\\Mantenimento_TIC\\Aplicacion.App\\Aplicacion.App.Persistencia\\Aplicacion.App.Persistencia.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Repositorio\\Mantenimento-TIC\\Net\\Mantenimento_TIC\\Aplicacion.App\\Aplicacion.App.Persistencia\\Aplicacion.App.Persistencia.csproj",
+        "projectUniqueName": "C:\\Users\\USUARIO\\Mantenimento-TIC\\Mantenimento-TIC\\Net\\Mantenimento_TIC\\Aplicacion.App\\Aplicacion.App.Persistencia\\Aplicacion.App.Persistencia.csproj",
         "projectName": "Aplicacion.App.Persistencia",
-        "projectPath": "C:\\Repositorio\\Mantenimento-TIC\\Net\\Mantenimento_TIC\\Aplicacion.App\\Aplicacion.App.Persistencia\\Aplicacion.App.Persistencia.csproj",
-        "packagesPath": "C:\\Users\\cye13\\.nuget\\packages\\",
-        "outputPath": "C:\\Repositorio\\Mantenimento-TIC\\Net\\Mantenimento_TIC\\Aplicacion.App\\Aplicacion.App.Persistencia\\obj\\",
+        "projectPath": "C:\\Users\\USUARIO\\Mantenimento-TIC\\Mantenimento-TIC\\Net\\Mantenimento_TIC\\Aplicacion.App\\Aplicacion.App.Persistencia\\Aplicacion.App.Persistencia.csproj",
+        "packagesPath": "C:\\Users\\USUARIO\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\USUARIO\\Mantenimento-TIC\\Mantenimento-TIC\\Net\\Mantenimento_TIC\\Aplicacion.App\\Aplicacion.App.Persistencia\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\cye13\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\USUARIO\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netstandard2.1"
@@ -78,8 +78,8 @@
         "frameworks": {
           "netstandard2.1": {
             "projectReferences": {
-              "C:\\Repositorio\\Mantenimento-TIC\\Net\\Mantenimento_TIC\\Aplicacion.App\\Aplicacion.App.Dominio\\Aplicacion.App.Dominio.csproj": {
-                "projectPath": "C:\\Repositorio\\Mantenimento-TIC\\Net\\Mantenimento_TIC\\Aplicacion.App\\Aplicacion.App.Dominio\\Aplicacion.App.Dominio.csproj"
+              "C:\\Users\\USUARIO\\Mantenimento-TIC\\Mantenimento-TIC\\Net\\Mantenimento_TIC\\Aplicacion.App\\Aplicacion.App.Dominio\\Aplicacion.App.Dominio.csproj": {
+                "projectPath": "C:\\Users\\USUARIO\\Mantenimento-TIC\\Mantenimento-TIC\\Net\\Mantenimento_TIC\\Aplicacion.App\\Aplicacion.App.Dominio\\Aplicacion.App.Dominio.csproj"
               }
             }
           }
