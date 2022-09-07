@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 
 namespace Aplicacion.App.Persistencia
 {
-    public class RepositorioVehiculo:IRepositorio
+    public class RepositorioVehiculo:IRepositorioVehiculo
     {
         
     }
