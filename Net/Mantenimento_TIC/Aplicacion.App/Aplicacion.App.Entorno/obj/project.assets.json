@@ -8,19 +8,19 @@
     ".NETCoreApp,Version=v3.1": []
   },
   "packageFolders": {
-    "C:\\Users\\USUARIO\\.nuget\\packages\\": {}
+    "C:\\Users\\DFern\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\USUARIO\\Mantenimento-TIC\\Mantenimento-TIC\\Net\\Mantenimento_TIC\\Aplicacion.App\\Aplicacion.App.Entorno\\Aplicacion.App.Entorno.csproj",
+      "projectUniqueName": "D:\\REPOS\\Mantenimento-TIC\\Net\\Mantenimento_TIC\\Aplicacion.App\\Aplicacion.App.Entorno\\Aplicacion.App.Entorno.csproj",
       "projectName": "Aplicacion.App.Entorno",
-      "projectPath": "C:\\Users\\USUARIO\\Mantenimento-TIC\\Mantenimento-TIC\\Net\\Mantenimento_TIC\\Aplicacion.App\\Aplicacion.App.Entorno\\Aplicacion.App.Entorno.csproj",
-      "packagesPath": "C:\\Users\\USUARIO\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\USUARIO\\Mantenimento-TIC\\Mantenimento-TIC\\Net\\Mantenimento_TIC\\Aplicacion.App\\Aplicacion.App.Entorno\\obj\\",
+      "projectPath": "D:\\REPOS\\Mantenimento-TIC\\Net\\Mantenimento_TIC\\Aplicacion.App\\Aplicacion.App.Entorno\\Aplicacion.App.Entorno.csproj",
+      "packagesPath": "C:\\Users\\DFern\\.nuget\\packages\\",
+      "outputPath": "D:\\REPOS\\Mantenimento-TIC\\Net\\Mantenimento_TIC\\Aplicacion.App\\Aplicacion.App.Entorno\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\USUARIO\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\DFern\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp3.1"
@@ -30,6 +30,7 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "projectReferences": {}
         }
       },
@@ -41,22 +42,42 @@
     },
     "frameworks": {
       "netcoreapp3.1": {
+        "targetAlias": "netcoreapp3.1",
         "imports": [
           "net461",
           "net462",
           "net47",
           "net471",
           "net472",
-          "net48"
+          "net48",
+          "net481"
         ],
         "assetTargetFallback": true,
         "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.AspNetCore.App.Ref",
+            "version": "[3.1.10, 3.1.10]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Host.win-x64",
+            "version": "[3.1.28, 3.1.28]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Ref",
+            "version": "[3.1.0, 3.1.0]"
+          },
+          {
+            "name": "Microsoft.WindowsDesktop.App.Ref",
+            "version": "[3.1.0, 3.1.0]"
+          }
+        ],
         "frameworkReferences": {
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.422\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
       }
     }
   }
