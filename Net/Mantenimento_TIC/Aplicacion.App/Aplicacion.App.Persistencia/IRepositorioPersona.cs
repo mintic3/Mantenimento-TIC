@@ -1,9 +1,11 @@
+using System;
 using System.Collections.Generic;
-using Aplicacion.App.Dominio;
+using System.Linq;
+using System.Threading.Tasks;
 
 namespace Aplicacion.App.Persistencia
 {
-    public interface IRepositorioPersona {
+    public class IRepositorioPersona {
         IEnumerable <Persona> GetAllPersona();
         Persona AddPersona(Persona persona);
         Persona UpdatePersona(Persona persona);

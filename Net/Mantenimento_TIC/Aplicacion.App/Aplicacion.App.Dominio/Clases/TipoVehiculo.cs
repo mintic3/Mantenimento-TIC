@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace Aplicacion.App.Dominio
+namespace Aplicacion.App.Dominio.Clases
 {
     public class TipoVehiculo {
         public int id {get;set;}

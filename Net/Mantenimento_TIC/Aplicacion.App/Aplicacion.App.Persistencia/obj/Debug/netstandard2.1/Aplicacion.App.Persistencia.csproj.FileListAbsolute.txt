@@ -16,16 +16,3 @@ C:\Users\USUARIO\Mantenimento-TIC\Mantenimento-TIC\Net\Mantenimento_TIC\Aplicaci
 C:\Users\USUARIO\Mantenimento-TIC\Mantenimento-TIC\Net\Mantenimento_TIC\Aplicacion.App\Aplicacion.App.Persistencia\obj\Debug\netstandard2.1\Aplicacion.App.Persistencia.csproj.CoreCompileInputs.cache
 C:\Users\USUARIO\Mantenimento-TIC\Mantenimento-TIC\Net\Mantenimento_TIC\Aplicacion.App\Aplicacion.App.Persistencia\obj\Debug\netstandard2.1\Aplicacion.App.Persistencia.dll
 C:\Users\USUARIO\Mantenimento-TIC\Mantenimento-TIC\Net\Mantenimento_TIC\Aplicacion.App\Aplicacion.App.Persistencia\obj\Debug\netstandard2.1\Aplicacion.App.Persistencia.pdb
-D:\REPOS\Mantenimento-TIC\Net\Mantenimento_TIC\Aplicacion.App\Aplicacion.App.Persistencia\obj\Debug\netstandard2.1\Aplicacion.App.Persistencia.csproj.AssemblyReference.cache
-D:\REPOS\Mantenimento-TIC\Net\Mantenimento_TIC\Aplicacion.App\Aplicacion.App.Persistencia\obj\Debug\netstandard2.1\Aplicacion.App.Persistencia.GeneratedMSBuildEditorConfig.editorconfig
-D:\REPOS\Mantenimento-TIC\Net\Mantenimento_TIC\Aplicacion.App\Aplicacion.App.Persistencia\obj\Debug\netstandard2.1\Aplicacion.App.Persistencia.AssemblyInfoInputs.cache
-D:\REPOS\Mantenimento-TIC\Net\Mantenimento_TIC\Aplicacion.App\Aplicacion.App.Persistencia\obj\Debug\netstandard2.1\Aplicacion.App.Persistencia.AssemblyInfo.cs
-D:\REPOS\Mantenimento-TIC\Net\Mantenimento_TIC\Aplicacion.App\Aplicacion.App.Persistencia\obj\Debug\netstandard2.1\Aplicacion.App.Persistencia.csproj.CoreCompileInputs.cache
-D:\REPOS\Mantenimento-TIC\Net\Mantenimento_TIC\Aplicacion.App\Aplicacion.App.Persistencia\obj\Debug\netstandard2.1\Aplicacion.App.Persistencia.dll
-D:\REPOS\Mantenimento-TIC\Net\Mantenimento_TIC\Aplicacion.App\Aplicacion.App.Persistencia\obj\Debug\netstandard2.1\Aplicacion.App.Persistencia.pdb
-D:\REPOS\Mantenimento-TIC\Net\Mantenimento_TIC\Aplicacion.App\Aplicacion.App.Persistencia\bin\Debug\netstandard2.1\Aplicacion.App.Persistencia.deps.json
-D:\REPOS\Mantenimento-TIC\Net\Mantenimento_TIC\Aplicacion.App\Aplicacion.App.Persistencia\bin\Debug\netstandard2.1\Aplicacion.App.Persistencia.dll
-D:\REPOS\Mantenimento-TIC\Net\Mantenimento_TIC\Aplicacion.App\Aplicacion.App.Persistencia\bin\Debug\netstandard2.1\Aplicacion.App.Persistencia.pdb
-D:\REPOS\Mantenimento-TIC\Net\Mantenimento_TIC\Aplicacion.App\Aplicacion.App.Persistencia\bin\Debug\netstandard2.1\Aplicacion.App.Dominio.dll
-D:\REPOS\Mantenimento-TIC\Net\Mantenimento_TIC\Aplicacion.App\Aplicacion.App.Persistencia\bin\Debug\netstandard2.1\Aplicacion.App.Dominio.pdb
-D:\REPOS\Mantenimento-TIC\Net\Mantenimento_TIC\Aplicacion.App\Aplicacion.App.Persistencia\obj\Debug\netstandard2.1\Aplicacion.App.Persistencia.csproj.CopyComplete

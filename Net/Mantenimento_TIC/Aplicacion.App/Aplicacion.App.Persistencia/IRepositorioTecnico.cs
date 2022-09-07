@@ -2,11 +2,10 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using Aplicacion.App.Dominio;
 
 namespace Aplicacion.App.Persistencia
 {
-    public interface IRepositorioTecnico {
+    public class IRepositorioTecnico{
         IEnumerable <Tecnico> GetAllTecnico();
         Tecnico AddTecnico(Tecnico Tecnico);
         Tecnico UpdateTecnico(Tecnico Tecnico);

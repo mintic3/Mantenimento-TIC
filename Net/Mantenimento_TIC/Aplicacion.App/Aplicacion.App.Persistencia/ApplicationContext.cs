@@ -2,7 +2,7 @@ using System;
 using Aplicacion.App.Dominio;
 using Microsoft.EntityFrameworkCore;
 
-namespace Aplicacion.App.Persistencia
+namespace persistencia
 {
     public class ApplicationContext: DbContext {
         private const string connectionString = @"Data Source=localhost\sqlexpress;Initial Catalog=MantenimientoTIC;Integrated Security=True;";

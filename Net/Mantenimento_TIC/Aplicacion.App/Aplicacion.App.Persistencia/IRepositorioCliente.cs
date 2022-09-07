@@ -1,13 +1,15 @@
+using System;
 using System.Collections.Generic;
-using Aplicacion.App.Dominio;
+using System.Linq;
+using System.Threading.Tasks;
 
 namespace Aplicacion.App.Persistencia
 {
-    public interface IRepositorioCliente {
+    public class IRepositorioCliente {
         IEnumerable <Cliente> GetAllCliente();
-        Cliente AddCliente(Cliente cliente);
+        Cliente AddCliente (Cliente cliente);
         Cliente UpdateCliente(Cliente cliente);
-        void DeleteCliente(int idCliente);
+        void DeleteCliente (int idCliente);
         Cliente GetCliente(int idCliente);
     }
 }

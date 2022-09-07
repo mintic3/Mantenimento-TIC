@@ -16,13 +16,3 @@ C:\Users\USUARIO\Mantenimento-TIC\Mantenimento-TIC\Net\Mantenimento_TIC\Aplicaci
 C:\Users\USUARIO\Mantenimento-TIC\Mantenimento-TIC\Net\Mantenimento_TIC\Aplicacion.App\Aplicacion.App.Dominio\obj\Debug\netstandard2.0\Aplicacion.App.Dominio.csproj.CoreCompileInputs.cache
 C:\Users\USUARIO\Mantenimento-TIC\Mantenimento-TIC\Net\Mantenimento_TIC\Aplicacion.App\Aplicacion.App.Dominio\obj\Debug\netstandard2.0\Aplicacion.App.Dominio.dll
 C:\Users\USUARIO\Mantenimento-TIC\Mantenimento-TIC\Net\Mantenimento_TIC\Aplicacion.App\Aplicacion.App.Dominio\obj\Debug\netstandard2.0\Aplicacion.App.Dominio.pdb
-D:\REPOS\Mantenimento-TIC\Net\Mantenimento_TIC\Aplicacion.App\Aplicacion.App.Dominio\bin\Debug\netstandard2.0\Aplicacion.App.Dominio.deps.json
-D:\REPOS\Mantenimento-TIC\Net\Mantenimento_TIC\Aplicacion.App\Aplicacion.App.Dominio\bin\Debug\netstandard2.0\Aplicacion.App.Dominio.dll
-D:\REPOS\Mantenimento-TIC\Net\Mantenimento_TIC\Aplicacion.App\Aplicacion.App.Dominio\bin\Debug\netstandard2.0\Aplicacion.App.Dominio.pdb
-D:\REPOS\Mantenimento-TIC\Net\Mantenimento_TIC\Aplicacion.App\Aplicacion.App.Dominio\obj\Debug\netstandard2.0\Aplicacion.App.Dominio.csproj.AssemblyReference.cache
-D:\REPOS\Mantenimento-TIC\Net\Mantenimento_TIC\Aplicacion.App\Aplicacion.App.Dominio\obj\Debug\netstandard2.0\Aplicacion.App.Dominio.GeneratedMSBuildEditorConfig.editorconfig
-D:\REPOS\Mantenimento-TIC\Net\Mantenimento_TIC\Aplicacion.App\Aplicacion.App.Dominio\obj\Debug\netstandard2.0\Aplicacion.App.Dominio.AssemblyInfoInputs.cache
-D:\REPOS\Mantenimento-TIC\Net\Mantenimento_TIC\Aplicacion.App\Aplicacion.App.Dominio\obj\Debug\netstandard2.0\Aplicacion.App.Dominio.AssemblyInfo.cs
-D:\REPOS\Mantenimento-TIC\Net\Mantenimento_TIC\Aplicacion.App\Aplicacion.App.Dominio\obj\Debug\netstandard2.0\Aplicacion.App.Dominio.csproj.CoreCompileInputs.cache
-D:\REPOS\Mantenimento-TIC\Net\Mantenimento_TIC\Aplicacion.App\Aplicacion.App.Dominio\obj\Debug\netstandard2.0\Aplicacion.App.Dominio.dll
-D:\REPOS\Mantenimento-TIC\Net\Mantenimento_TIC\Aplicacion.App\Aplicacion.App.Dominio\obj\Debug\netstandard2.0\Aplicacion.App.Dominio.pdb

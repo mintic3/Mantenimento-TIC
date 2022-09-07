@@ -1,55 +1,65 @@
-using System.Linq;
+using System;
 using System.Collections.Generic;
+//using System.Ling;
+//using system.Threading.Tasks;
 using Aplicacion.App.Dominio;
 
 namespace Aplicacion.App.Persistencia
 {
-    public class RepositorioPersona: IRepositorioPersona {
+    public class RepositorioPersona:IRepositorioPersona {
 
-        private readonly ApplicationContext  context;
+        private readonly ApplicationContext  _applicationContext;
 
         public RepositorioPersona(){}
 
         public RepositorioPersona(ApplicationContext _applicationContext) {
-            context = _applicationContext;
-        }
-
-        IEnumerable<Persona> IRepositorioPersona.GetAllPersona(){
-            return context.Persona;
+            _applicationContext = _applicationContext;
         }
         
-        Persona IRepositorioPersona.AddPersona(Persona persona) {
-            var newPersona = context.Persona.Add(persona);
-            context.SaveChanges();
-            return persona;
-        }
-
-        Persona IRepositorioPersona.UpdatePersona(Persona persona) {
-            Persona personaEncontrada = context.Persona.FirstOrDefault(p => p.id == persona.id);
-            if (personaEncontrada != null) {
-                personaEncontrada.nombres = persona.nombres;
-                personaEncontrada.apellidos = persona.apellidos;
-                personaEncontrada.fecha_nacimiento = persona.fecha_nacimiento;
-                personaEncontrada.identificacion = persona.identificacion;
-                personaEncontrada.tipo_id = persona.tipo_id;
-                personaEncontrada.genero = persona.genero;
-                personaEncontrada.fecha_registro = persona.fecha_registro;
-            }
-            context.SaveChanges();
-            return personaEncontrada;
+        void IRepositorioPersona.AddPersona(Persona persona) {
+            var new_persona = _applicationContext.personas.Add(persona);
+            _applicationContext.SaveChanges();
+            return; //new_persona.Entity;
         }
         void IRepositorioPersona.DeletePersona(int idPersona) {
-            var personaEncontrada = context.Persona.FirstOrDefault(p => p.id == idPersona);
+            var personaEncontrada = _applicationContext.personas.FirstOrDefault(p => p.Id == idPersona);
 
             if (personaEncontrada == null)
                 return;
 
-            context.Remove(personaEncontrada);
-            context.SaveChanges();
+            _applicationContext.RemovePersona(personaEncontrada);
+            _applicationContext.SaveChanges();
         }
 
-        Persona IRepositorioPersona.GetPersona(int idPersona){
-            var personaEncontrada = context.Persona.FirstOrDefault(p => p.id == idPersona);
+        IEnumerable<Persona> IRepositorioPersona.GetAllPersona(){
+            return; //_applicationContext.personas;
+        }
+
+        void IRepositorioPersona.GetPersona(int idPersona){
+            var personaEncontrada = applicationContext.personas.FirstOrDefault(p => p.Id == IdPersona);
+            if (personaEncontrada != null){
+                personaEncontrada.Nombres = persona.Nombres;
+                personaEncontrada.Apellidos = persona.Apellidos;
+                personaEncontrada.Fecha_nacimiento = persona.Fecha_nacimiento;
+                personaEncontrada.Identificacion = persona.Identificacion;
+                personaEncontrada.Tipo_id = persona.Tipo_id;
+            }
+            _applicationContext.SaveChanges();
+            return personaEncontrada;
+        }
+
+        void IRepositorioPersona.UpdatePersona(Persona persona) {
+            var personaEncontrada = _applicationContext.personas.FirstOrDefault(p => p.Id == IdPersona);
+            if (personaEncontrada != null) {
+                personaEncontrada.Nombres = persona.Nombres;
+                personaEncontrada.Apellidos = persona.Apellidos;
+                personaEncontrada.Fecha_nacimiento = persona.Fecha_nacimiento;
+                personaEncontrada.Identificacion = persona.Identificacion;
+                personaEncontrada.Tipo_id = persona.Tipo_id;
+                personaEncontrada.Genero = persona.Genero;
+                personaEncontrada.Fecha_registro = persona.Fecha_registro;
+            }
+            _applicationContext.SaveChanges();
             return personaEncontrada;
         }
     }
