@@ -6,20 +6,20 @@ using Aplicacion.App.Dominio;
 
 namespace Aplicacion.App.Persistencia
 {
-    public class RepositorioPersona: IRepositorioPersona {
+    public class RepositorioPersona:IRepositorioPersona {
 
         private readonly ApplicationContext  _applicationContext;
 
-        public Repositorio(){}
+        public RepositorioPersona(){}
 
-        public Repositorio(ApplicationContext _applicationContext) {
+        public RepositorioPersona(ApplicationContext _applicationContext) {
             _applicationContext = _applicationContext;
         }
         
         void IRepositorioPersona.AddPersona(Persona persona) {
             var new_persona = _applicationContext.personas.Add(persona);
             _applicationContext.SaveChanges();
-            return new_persona.Entity;
+            return; //new_persona.Entity;
         }
         void IRepositorioPersona.DeletePersona(int idPersona) {
             var personaEncontrada = _applicationContext.personas.FirstOrDefault(p => p.Id == idPersona);
@@ -31,8 +31,8 @@ namespace Aplicacion.App.Persistencia
             _applicationContext.SaveChanges();
         }
 
-        IEnumerable<Persona> IRepositorioPersona.GetAll(){
-            return _applicationContext.personas;
+        IEnumerable<Persona> IRepositorioPersona.GetAllPersona(){
+            return; //_applicationContext.personas;
         }
 
         void IRepositorioPersona.GetPersona(int idPersona){
