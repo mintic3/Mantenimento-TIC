@@ -1,8 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "fLm+B+3z6EZwQc85my8aAFJv4JG/Teuru/ZPJsPEZmetqxRDP0xLgsCDTDTflg2f37Z0rEfiXN/a/IMlJN5wnQ==",
+  "dgSpecHash": "Vwygg+N52ANv7Qu1YwTBFL4CSn+w13ziK3IN6oSLaKzPuuUi4zZexxz0d2EYar7ZTrnnXYY6KItc88aOnHT/fg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\USUARIO\\Mantenimento-TIC\\Mantenimento-TIC\\Net\\Mantenimento_TIC\\Aplicacion.App\\Aplicacion.App.Servicios\\Aplicacion.App.Servicios.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "D:\\REPOS\\Mantenimento-TIC\\Net\\Mantenimento_TIC\\Aplicacion.App\\Aplicacion.App.Servicios\\Aplicacion.App.Servicios.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\DFern\\.nuget\\packages\\microsoft.netcore.app.ref\\3.1.0\\microsoft.netcore.app.ref.3.1.0.nupkg.sha512",
+    "C:\\Users\\DFern\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\3.1.0\\microsoft.windowsdesktop.app.ref.3.1.0.nupkg.sha512",
+    "C:\\Users\\DFern\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.10\\microsoft.aspnetcore.app.ref.3.1.10.nupkg.sha512",
+    "C:\\Users\\DFern\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.28\\microsoft.netcore.app.host.win-x64.3.1.28.nupkg.sha512"
+  ],
   "logs": []
 }
