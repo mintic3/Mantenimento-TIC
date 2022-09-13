@@ -8,6 +8,9 @@ using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+using Aplicacion.App.Persistencia;
+using Microsoft.EntityFrameworkCore;
+
 
 namespace Aplicacion.App.Frontend
 {
@@ -24,6 +27,17 @@ namespace Aplicacion.App.Frontend
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddRazorPages();
+            services.AddScoped<IRepositorioCliente,RepositorioCliente>();
+            //services.AddScoped<IRepositorioLogin,RepositorioLogin>();
+            services.AddScoped<IRepositorioPersona,RepositorioPersona>();
+            //services.AddScoped<IRepositorioRevision,RepositorioRevision>();
+            services.AddScoped<IRepositorioTecnico,RepositorioTecnico>();
+            services.AddScoped<IRepositorioTipoVehiculo,RepositorioTipoVehiculo>();
+            services.AddScoped<IRepositorioVehiculo,RepositorioVehiculo>();
+            
+            services.AddDbContext<ApplicationContext>(options => options.UseSqlServer(
+                Configuration.GetConnectionString("DefaultConnection")
+            ));
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
