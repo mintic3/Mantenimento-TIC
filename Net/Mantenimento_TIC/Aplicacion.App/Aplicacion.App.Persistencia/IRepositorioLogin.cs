@@ -6,7 +6,11 @@ using Aplicacion.App.Dominio;
 
 namespace Aplicacion.App.Persistencia
 {
-    public class IRepositorioLogin{
-        
+    public interface IRepositorioLogin{
+        IEnumerable <Login> hacerLogin();
+        Login crearLogin(Login login);
+        Login actualizar(Login login);
+        void DeleteLogin (int idLogin);
+
     }
 }

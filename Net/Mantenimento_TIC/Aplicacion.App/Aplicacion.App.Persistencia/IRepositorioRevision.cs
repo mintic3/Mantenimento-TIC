@@ -6,8 +6,12 @@ using Aplicacion.App.Dominio;
 
 namespace Aplicacion.App.Persistencia
 {
-    public class IRepositorioRevision
+    public interface IRepositorioRevision
     {
-        
+        IEnumerable <Revision>  iniciarRevision ();
+        Revision AddRevision (Revision revision);
+        Revision actualizar (Revision revision);
+        void eliminarRevision (int idRevision);
+
     }
 }
