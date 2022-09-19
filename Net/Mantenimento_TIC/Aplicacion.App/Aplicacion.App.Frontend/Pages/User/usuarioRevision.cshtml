@@ -7,6 +7,14 @@
 </div>
 
 <form method="post">
-    <label asp-for="Login.Usuario" class="control label"></label>
-    <input aspo-for="Login.Usuario" class="form-control">
+    <label asp-for="Login.usuario" class="control label"></label>
+    <input aspo-for="Login.usuario" class="form-control">
+
+    <label asp-for="Login.password" class="control label"></label>
+    <input aspo-for="Login.pasword" class="form-control">
+    
+    <a class="nav-link text-dark" asp-area="" asp-page="/User/recuperacionUsuario">¿haz olvidado tu contraseña? haz clic aqui.</a>
+
+    <a class="nav-link text-dark" asp-area="" asp-page="/User/registroNuevo">¿No tienes cuenta? haz clic aqui.</a>
+
 </form>

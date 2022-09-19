@@ -28,9 +28,9 @@ namespace Aplicacion.App.Frontend
         {
             services.AddRazorPages();
             services.AddScoped<IRepositorioCliente,RepositorioCliente>();
-            //services.AddScoped<IRepositorioLogin,RepositorioLogin>();
+            services.AddScoped<IRepositorioLogin,RepositorioLogin>();
             services.AddScoped<IRepositorioPersona,RepositorioPersona>();
-            //services.AddScoped<IRepositorioRevision,RepositorioRevision>();
+            services.AddScoped<IRepositorioRevision,RepositorioRevision>();
             services.AddScoped<IRepositorioTecnico,RepositorioTecnico>();
             services.AddScoped<IRepositorioTipoVehiculo,RepositorioTipoVehiculo>();
             services.AddScoped<IRepositorioVehiculo,RepositorioVehiculo>();
